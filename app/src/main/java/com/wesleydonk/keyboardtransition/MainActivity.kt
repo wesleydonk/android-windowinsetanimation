@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         window.setDecorFitsSystemWindows(false)
         setContentView(R.layout.activity_main)
 
-        val motionLayout = findViewById<MotionLayout>(R.id.edit_text_container)
+        val motionLayout = findViewById<MotionLayout>(R.id.motion_layout)
 
         val callback = object : WindowInsetsAnimation.Callback(DISPATCH_MODE_STOP) {
             override fun onProgress(
