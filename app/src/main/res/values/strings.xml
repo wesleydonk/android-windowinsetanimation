@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KeyboardTransition</string>
+    <string name="edit_text_hint">Example hint</string>
+</resources>
